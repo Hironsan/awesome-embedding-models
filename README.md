@@ -14,7 +14,7 @@ Please feel free to pull requests to add links.
 
 
 ## Papers
-### Word Embedding
+### Word Embeddings
 
 **Word2vec**
 
@@ -28,9 +28,45 @@ Please feel free to pull requests to add links.
 * [GloVe: Global Vectors for Word Representation](http://nlp.stanford.edu/pubs/glove.pdf)
 * [Improving Word Representations via Global Context and Multiple Word Prototypes](http://www.aclweb.org/anthology/P12-1092)
 
+**FastText**
+
+* [Enriching Word Vectors with Subword Information](https://arxiv.org/pdf/1607.04606v1.pdf)
+* [Bag of Tricks for Efficient Text Classification](https://arxiv.org/pdf/1607.01759.pdf)
+
+**Embedding Enhancement**
+
+* [Retrofitting Word Vectors to Semantic Lexicons](https://arxiv.org/abs/1411.4166)
+* [Better Word Representations with Recursive Neural Networks for Morphology](http://nlp.stanford.edu/~lmthang/data/papers/conll13_morpho.pdf)
+* [Dependency-Based Word Embeddings](https://levyomer.files.wordpress.com/2014/04/dependency-based-word-embeddings-acl-2014.pdf)
+* [Not All Neural Embeddings are Born Equal](https://arxiv.org/abs/1410.0718)
+* [Two/Too Simple Adaptations of Word2Vec for Syntax Problems](http://www.cs.cmu.edu/~lingwang/papers/naacl2015.pdf)
+
+
+**Comparing count-based vs predict-based method**
+
+* [Linguistic Regularities in Sparse and Explicit Word Representations](https://www.cs.bgu.ac.il/~yoavg/publications/conll2014analogies.pdf)
+* [Don’t count, predict! A systematic comparison of context-counting vs. context-predicting semantic vectors](http://www.aclweb.org/anthology/P14-1023)
+* [Improving Distributional Similarity with Lessons Learned from Word Embeddings](http://www.aclweb.org/anthology/Q15-1016)
+
+
 **Evaluation Method**
 
 * [Evaluation methods for unsupervised word embeddings](http://www.aclweb.org/anthology/D15-1036)
+
+### Phrase, Sentence and Document Embeddings
+
+**Sentence**
+
+* [Skip-Thought Vectors](https://arxiv.org/abs/1506.06726)
+
+**Document**
+
+* [Distributed Representations of Sentences and Documents](https://arxiv.org/abs/1405.4053)
+
+### Sense Embeddings
+
+* [SENSEMBED: Learning Sense Embeddings for Word and Relational Similarity](http://wwwusers.di.uniroma1.it/~navigli/pubs/ACL_2015_Iacobaccietal.pdf)
+* [Multi-Prototype Vector-Space Models of Word Meaning](http://www.cs.utexas.edu/~ml/papers/reisinger.naacl-2010.pdf)
 
 ### Neural Language Models
 
@@ -40,14 +76,16 @@ Please feel free to pull requests to add links.
 
 ## Researchers
 
-* [Tomas Mikolov](https://arxiv.org/find/all/1/all:+AND+Tomas+Mikolov/0/1/0/all/0/1)
-* [Yoshua Bengio](https://arxiv.org/find/cs/1/au:+Bengio_Y/0/1/0/all/0/1)
-* [Yoav Goldberg](https://arxiv.org/find/all/1/all:+AND+Yoav+Goldberg/0/1/0/all/0/1)
-* [Kai Chen](https://arxiv.org/find/cs/1/au:+Chen_K/0/1/0/all/0/1)
+* [Tomas Mikolov](https://scholar.google.co.jp/citations?user=oBu8kMMAAAAJ&hl=en)
+* [Yoshua Bengio](https://scholar.google.co.jp/citations?user=kukA0LcAAAAJ&hl=en)
+* [Yoav Goldberg](https://scholar.google.co.jp/citations?user=0rskDKgAAAAJ&hl=en)
+* [Omer Levy](https://scholar.google.co.jp/citations?user=PZVd2h8AAAAJ&hl=en)
+* [Kai Chen](https://scholar.google.co.jp/citations?user=TKvd_Z4AAAAJ&hl=en)
 
 ## Courses and Lectures
 
 * [CS224d: Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/index.html)
+* [Udacity Deep Learning](https://www.udacity.com/course/deep-learning--ud730)
 
 ## Datasets
 ### Training

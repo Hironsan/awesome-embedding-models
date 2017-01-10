@@ -50,14 +50,14 @@ V = len(tokenizer.word_index) + 1
 
 
 def build_model():
-    inputs = Sequential()
-    inputs.add(Embedding(V, args.embedding_size, input_length=1))
+    target_word = Sequential()
+    target_word.add(Embedding(V, args.embedding_size, input_length=1))
 
     context = Sequential()
     context.add(Embedding(V, args.embedding_size, input_length=1))
 
     model = Sequential()
-    model.add(Merge([inputs, context], mode='dot', dot_axes=2))
+    model.add(Merge([target_word, context], mode='dot', dot_axes=2))
     model.add(Reshape((1,), input_shape=(1, 1)))
     model.add(Activation('sigmoid'))
     model.compile(loss='binary_crossentropy', optimizer='rmsprop')

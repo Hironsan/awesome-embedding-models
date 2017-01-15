@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import argparse
-import pprint
 import sys
 
 import numpy as np
@@ -11,7 +10,7 @@ from keras.models import Sequential
 from keras.preprocessing.sequence import skipgrams, make_sampling_table
 from keras.preprocessing.text import Tokenizer, base_filter
 
-from utils import maybe_download, unzip
+from .utils import maybe_download, unzip, read_analogies
 
 parser = argparse.ArgumentParser(description='Keras skip-gram with negative sampling')
 parser.add_argument('--save_path', type=str, default='vectors.txt',
@@ -65,10 +64,6 @@ def build_model():
     return model
 
 
-def eval_model(model):
-    pass
-
-
 def train_model(model):
     sampling_table = make_sampling_table(V, sampling_factor=args.sampling_factor)
     for epoch in range(args.epochs_to_train):
@@ -84,6 +79,7 @@ def train_model(model):
                 y = np.array(labels, dtype=np.int32)
                 loss += model.train_on_batch([words, contexts], y)
         print('num epoch: {} loss: {}'.format(epoch, loss))
+
     return model
 
 
@@ -99,11 +95,23 @@ def save_model(model):
             f.write('\n')
 
 
-def test_model():
+def eval_model():
     w2v = Word2Vec.load_word2vec_format(args.save_path, binary=False)
-    pprint.pprint(w2v.most_similar(positive=['king']))
-    pprint.pprint(w2v.most_similar(positive=['country']))
-    pprint.pprint(w2v.most_similar(positive=['woman', 'king'], negative=['man']))
+    word2id = dict([(w, i) for i, w in enumerate(w2v.index2word)])
+    analogy_questions = read_analogies(args.eval_data, word2id)
+    correct = 0
+    total = len(analogy_questions)
+    for question in analogy_questions:
+        a, b, c, d = question  # E.g. [Athens, Greece, Baghdad, Iraq]
+        analogies = w2v.most_similar(positive=[b, c], negative=[a], topn=4)
+        for analogy in analogies:
+            word, _ = analogy
+            if d == word:
+                # Predicted Correctly!
+                correct += 1
+                break
+    print('Eval %4d/%d accuracy = %4.1f%%' % (correct, total, correct * 100.0 / total))
+
 
 
 def main():
@@ -112,13 +120,13 @@ def main():
     """
     #if not args.train_data or not args.eval_data or not args.save_path:
     if not args.save_path:
-        print("--train_data --eval_data and --save_path must be specified.")
+        print('--train_data --eval_data and --save_path must be specified.')
         sys.exit(1)
 
     model = build_model()
     model = train_model(model)
-    model = save_model(model)
-    test_model()
+    save_model(model)
+    eval_model()
 
 if __name__ == '__main__':
     main()

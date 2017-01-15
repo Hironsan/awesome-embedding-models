@@ -1,7 +1,7 @@
+# -*- coding: utf-8 -*-
 import os
 import zipfile
 
-import numpy as np
 from keras.utils.data_utils import get_file
 
 
@@ -34,7 +34,7 @@ def unzip(zip_filename):
             return os.path.abspath(filename)
 
 
-def read_analogies(filename):
+def read_analogies(filename, word2id):
     """
     Reads through the analogy question file.
 
@@ -44,31 +44,27 @@ def read_analogies(filename):
     """
     questions = []
     questions_skipped = 0
-    with open(filename, 'rb') as analogy_f:
+    with open(filename, 'r') as analogy_f:
         for line in analogy_f:
-            if line.startswith(b':'):  # Skip comments.
+            if line.startswith(':'):  # Skip comments.
                 continue
-            words = line.strip().lower().split(b' ')
-            ids = [word2id.get(w.strip()) for w in words]
-            if None in ids or len(ids) != 4:
+            words = line.strip().lower().split()
+            ids = [w in word2id for w in words]
+            if False in ids or len(ids) != 4:
                 questions_skipped += 1
             else:
-                questions.append(np.array(ids))
+                questions.append(words)
     print('Eval analogy file: {}'.format(filename))
     print('Questions: {}'.format(len(questions)))
     print('Skipped: {}'.format(questions_skipped))
-    analogy_questions = np.array(questions, dtype=np.int32)
-    return analogy_questions
+    return questions
 
     
 if __name__ == '__main__':
-    """
     url = 'http://mattmahoney.net/dc/text8.zip'
     filename = maybe_download(url)
     unzip(filename)
     words = read_data(filename)
     print('Data size', len(words))
-    """
     url = 'http://download.tensorflow.org/data/questions-words.txt'
     filename = maybe_download(url)
-    analogy_questions = read_analogies(filename)

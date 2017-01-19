@@ -10,7 +10,7 @@ from keras.models import Sequential
 from keras.preprocessing.sequence import skipgrams, make_sampling_table
 from keras.preprocessing.text import Tokenizer, base_filter
 
-from .utils import maybe_download, unzip, read_analogies
+from utils import maybe_download, unzip, read_analogies
 
 parser = argparse.ArgumentParser(description='Keras skip-gram with negative sampling')
 parser.add_argument('--save_path', type=str, default='vectors.txt',
@@ -38,7 +38,7 @@ parser.add_argument('--sampling_factor', type=float, default=1e-3,
 args = parser.parse_args()
 
 
-zip_filename = maybe_download('text8.zip')
+zip_filename = maybe_download('http://mattmahoney.net/dc/text8.zip')
 text_file = unzip(zip_filename)
 sentences = word2vec.Text8Corpus(text_file)
 sentences = [' '.join(sent) for sent in sentences]

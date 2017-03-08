@@ -49,9 +49,13 @@ Please feel free to pull requests to add links.
 * [Improving Distributional Similarity with Lessons Learned from Word Embeddings](http://www.aclweb.org/anthology/Q15-1016)
 
 
-**Evaluation Method**
+**Evaluation**
 
 * [Evaluation methods for unsupervised word embeddings](http://www.aclweb.org/anthology/D15-1036)
+* [Intrinsic Evaluation of Word Vectors Fails to Predict Extrinsic Performance](https://www.aclweb.org/anthology/W/W16/W16-2501.pdf)
+* [Problems With Evaluation of Word Embeddings Using Word Similarity Tasks](https://arxiv.org/abs/1605.02276)
+* [Improving Reliability of Word Similarity Evaluation by Redesigning Annotation Task and Performance Measure](https://arxiv.org/abs/1611.03641)
+* [Evaluating Word Embeddings Using a Representative Suite of Practical Tasks](https://cs.stanford.edu/~angeli/papers/2016-acl-veceval.pdf)
 
 ### Phrase, Sentence and Document Embeddings
 
@@ -102,9 +106,16 @@ Please feel free to pull requests to add links.
 
 ### Trained Word Vectors
 
+* [Word2vec pretrained vector(English Only)](https://code.google.com/archive/p/word2vec/)
+* [Word2vec pretrained vectors for 30+ languages](https://github.com/Kyubyong/wordvectors)
+* [FastText pretrained vectors for 90 languages](https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md)
+* [FastText pretrained vector for Japanese with NEologd](https://drive.google.com/open?id=0ByFQ96A4DgSPUm9wVWRLdm5qbmc)
+* [word vectors trained by GloVe](http://nlp.stanford.edu/projects/glove/)
+* [Dependency-Based Word Embeddings](https://levyomer.wordpress.com/2014/04/25/dependency-based-word-embeddings/)
+* [Meta-Embeddings](http://cistern.cis.lmu.de/meta-emb/)
+* [Lex-Vec](https://github.com/alexandres/lexvec)
 * [Huang et al. (2012)'s embeddings (HSMN+csmRNN)](http://stanford.edu/~lmthang/morphoNLM/)
 * [Collobert et al. (2011)'s embeddings (CW+csmRNN)](http://stanford.edu/~lmthang/morphoNLM/)
-* [word vectors trained by GloVe](http://nlp.stanford.edu/projects/glove/)
 
 ## Articles
 

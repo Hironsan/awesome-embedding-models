@@ -9,9 +9,8 @@ Please feel free to pull requests to add links.
 * **[Researchers](#researchers)**
 * **[Courses and Lectures](#courses-and-lectures)**
 * **[Datasets](#datasets)**
-* **[Articles](#articles)**
 * **[Implementations and Tools](#implementations-and-tools)**
-
+<!--* **[Articles](#articles)**-->
 
 ## Papers
 ### Word Embeddings
@@ -98,8 +97,12 @@ Please feel free to pull requests to add links.
 * [Stanford's Contextual Word Similarities (SCWS)](http://www.socher.org/index.php/Main/ImprovingWordRepresentationsViaGlobalContextAndMultipleWordPrototypes)
 * [Stanford Rare Word (RW) Similarity Dataset](http://stanford.edu/~lmthang/morphoNLM/)
 
-### Trained Word Vectors
+### Pre-Trained Word Vectors
+Convenient downloader for pre-trained word vectors:
+* [chakin](https://github.com/chakki-works/chakin)
 
+
+Links for pre-trained word vectors:
 * [Word2vec pretrained vector(English Only)](https://code.google.com/archive/p/word2vec/)
 * [Word2vec pretrained vectors for 30+ languages](https://github.com/Kyubyong/wordvectors)
 * [FastText pretrained vectors for 90 languages](https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md)
@@ -111,7 +114,9 @@ Please feel free to pull requests to add links.
 * [Huang et al. (2012)'s embeddings (HSMN+csmRNN)](http://stanford.edu/~lmthang/morphoNLM/)
 * [Collobert et al. (2011)'s embeddings (CW+csmRNN)](http://stanford.edu/~lmthang/morphoNLM/)
 
+<!--
 ## Articles
+-->
 
 ## Implementations and Tools
 ### Word2vec

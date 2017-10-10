@@ -113,6 +113,7 @@ Links for pre-trained word vectors:
 * [Lex-Vec](https://github.com/alexandres/lexvec)
 * [Huang et al. (2012)'s embeddings (HSMN+csmRNN)](http://stanford.edu/~lmthang/morphoNLM/)
 * [Collobert et al. (2011)'s embeddings (CW+csmRNN)](http://stanford.edu/~lmthang/morphoNLM/)
+* [BPEmb: subword embeddings for 275 languages](https://github.com/bheinzerling/bpemb)
 
 <!--
 ## Articles

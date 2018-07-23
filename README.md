@@ -26,6 +26,12 @@ Please feel free to pull requests to add links.
 * Enriching Word Vectors with Subword Information (2016), P. Bojanowski et al. [[pdf]](https://arxiv.org/pdf/1607.04606v1.pdf)
 * Bag of Tricks for Efficient Text Classification (2016), A. Joulin et al. [[pdf]](https://arxiv.org/pdf/1607.01759.pdf)
 
+**Language Model**
+
+* Semi-supervised sequence tagging with bidirectional language models (2017), Peters, Matthew E., et al. [[pdf]](https://arxiv.org/abs/1705.00108) 
+* Deep contextualized word representations (2018), Peters, Matthew E., et al. [[pdf]](https://arxiv.org/abs/1802.05365)
+
+
 **Embedding Enhancement**
 
 * Retrofitting Word Vectors to Semantic Lexicons (2014), M. Faruqui et al. [[pdf]](https://arxiv.org/pdf/1411.4166.pdf)

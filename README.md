@@ -121,6 +121,7 @@ Links for pre-trained word vectors:
 * [Collobert et al. (2011)'s embeddings (CW+csmRNN)](http://stanford.edu/~lmthang/morphoNLM/)
 * [BPEmb: subword embeddings for 275 languages](https://github.com/bheinzerling/bpemb)
 * [Wikipedia2Vec: pretrained word and entity embeddings for 12 languages](https://wikipedia2vec.github.io/wikipedia2vec/pretrained/)
+* [word2vec-slim](https://github.com/eyaler/word2vec-slim)
 
 <!--
 ## Articles

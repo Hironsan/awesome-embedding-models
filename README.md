@@ -103,6 +103,13 @@ Please feel free to pull requests to add links.
 * [Stanford's Contextual Word Similarities (SCWS)](http://www.socher.org/index.php/Main/ImprovingWordRepresentationsViaGlobalContextAndMultipleWordPrototypes)
 * [Stanford Rare Word (RW) Similarity Dataset](http://stanford.edu/~lmthang/morphoNLM/)
 
+### Pre-Trained Language Models
+
+Below is pre-trained [ELMo](https://arxiv.org/abs/1802.05365) models. Adding ELMo to existing NLP systems significantly improves the state-of-the-art for every considered task.
+
+* [ELMo by AllenNLP](https://allennlp.org/elmo)
+* [ELMo by TensorFlow Hub](https://alpha.tfhub.dev/google/elmo/2)
+
 ### Pre-Trained Word Vectors
 Convenient downloader for pre-trained word vectors:
 * [chakin](https://github.com/chakki-works/chakin)

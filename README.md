@@ -30,6 +30,7 @@ Please feel free to pull requests to add links.
 
 * Semi-supervised sequence tagging with bidirectional language models (2017), Peters, Matthew E., et al. [[pdf]](https://arxiv.org/abs/1705.00108) 
 * Deep contextualized word representations (2018), Peters, Matthew E., et al. [[pdf]](https://arxiv.org/abs/1802.05365)
+* Contextual String Embeddings for Sequence Labeling (2018). Akbik, Alan, Duncan Blythe, and Roland Vollgraf. [[pdf]](http://alanakbik.github.io/papers/coling2018.pdf)
 
 
 **Embedding Enhancement**

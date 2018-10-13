@@ -145,3 +145,5 @@ Links for pre-trained word vectors:
 ### GloVe
 
 * [Original](https://github.com/stanfordnlp/GloVe)
+* [GloVe as an optimized TensorFlow GPU Layer using chakin](https://github.com/guillaume-chevalier/GloVe-as-a-TensorFlow-Embedding-Layer)
+

@@ -28,7 +28,7 @@ Please feel free to pull requests to add links.
 
 **Language Model**
 
-* Semi-supervised sequence tagging with bidirectional language models (2017), Peters, Matthew E., et al. [[pdf]](https://arxiv.org/abs/1705.00108) 
+* Semi-supervised sequence tagging with bidirectional language models (2017), Peters, Matthew E., et al. [[pdf]](https://arxiv.org/abs/1705.00108)
 * Deep contextualized word representations (2018), Peters, Matthew E., et al. [[pdf]](https://arxiv.org/abs/1802.05365)
 * Contextual String Embeddings for Sequence Labeling (2018), Akbik, Alan, Duncan Blythe, and Roland Vollgraf. [[pdf]](http://alanakbik.github.io/papers/coling2018.pdf)
 * BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (2018), [[pdf]](https://arxiv.org/abs/1810.04805)
@@ -113,6 +113,9 @@ Below is pre-trained [ELMo](https://arxiv.org/abs/1802.05365) models. Adding ELM
 * [ELMo by AllenNLP](https://allennlp.org/elmo)
 * [ELMo by TensorFlow Hub](https://alpha.tfhub.dev/google/elmo/2)
 
+Below is pre-trained [sent2vec](https://github.com/epfml/sent2vec) models.
+* [BioSentVec: sent2vec pretrained vector for biomedical text](https://github.com/ncbi-nlp/BioSentVec)
+
 ### Pre-Trained Word Vectors
 Convenient downloader for pre-trained word vectors:
 * [chakin](https://github.com/chakki-works/chakin)
@@ -132,6 +135,7 @@ Links for pre-trained word vectors:
 * [BPEmb: subword embeddings for 275 languages](https://github.com/bheinzerling/bpemb)
 * [Wikipedia2Vec: pretrained word and entity embeddings for 12 languages](https://wikipedia2vec.github.io/wikipedia2vec/pretrained/)
 * [word2vec-slim](https://github.com/eyaler/word2vec-slim)
+* [BioWordVec: fastText pretrained vector for biomedical text](https://github.com/ncbi-nlp/BioSentVec)
 
 <!--
 ## Articles

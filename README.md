@@ -64,6 +64,10 @@ Please feel free to pull requests to add links.
 **Sentence**
 
 * [Skip-Thought Vectors](https://arxiv.org/abs/1506.06726)
+* [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/forum?id=SyK00v5xx)
+* [An efficient framework for learning sentence representations](https://arxiv.org/abs/1803.02893)
+* [Learning General Purpose Distributed Sentence Representations via Large Scale Multi-task Learning](https://arxiv.org/abs/1804.00079)
+* [Universal Sentence Encoder](https://arxiv.org/abs/1803.11175)
 
 **Document**
 

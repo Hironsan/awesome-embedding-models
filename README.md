@@ -128,7 +128,7 @@ Convenient downloader for pre-trained word vectors:
 Links for pre-trained word vectors:
 * [Word2vec pretrained vector(English Only)](https://code.google.com/archive/p/word2vec/)
 * [Word2vec pretrained vectors for 30+ languages](https://github.com/Kyubyong/wordvectors)
-* [FastText pretrained vectors for 90 languages](https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md)
+* [FastText pretrained vectors for 157 languages](https://github.com/facebookresearch/fastText/blob/master/docs/crawl-vectors.md)
 * [FastText pretrained vector for Japanese with NEologd](https://drive.google.com/open?id=0ByFQ96A4DgSPUm9wVWRLdm5qbmc)
 * [word vectors trained by GloVe](http://nlp.stanford.edu/projects/glove/)
 * [Dependency-Based Word Embeddings](https://levyomer.wordpress.com/2014/04/25/dependency-based-word-embeddings/)

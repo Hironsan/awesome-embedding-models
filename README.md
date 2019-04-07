@@ -37,7 +37,7 @@ Please feel free to pull requests to add links.
 
 **Embedding Enhancement**
 
-* Sentence Embedding:  Learning Semantic Sentence Embeddings using Pair-wise Discriminator Patro et al. [[Project Page]](https://badripatro.github.io/Question-Paraphrases/) [[Paper]](https://www.aclweb.org/anthology/C18-1230)
+* Sentence Embedding:Learning Semantic Sentence Embeddings using Pair-wise Discriminator(2018),Patro et al.[[Project Page]](https://badripatro.github.io/Question-Paraphrases/) [[Paper]](https://www.aclweb.org/anthology/C18-1230)
 * Retrofitting Word Vectors to Semantic Lexicons (2014), M. Faruqui et al. [[pdf]](https://arxiv.org/pdf/1411.4166.pdf)
 * Better Word Representations with Recursive Neural Networks for Morphology (2013), T.Luong et al. [[pdf]](http://www.aclweb.org/website/old_anthology/W/W13/W13-35.pdf#page=116)
 * Dependency-Based Word Embeddings (2014), Omer Levy, Yoav Goldberg [[pdf]](https://levyomer.files.wordpress.com/2014/04/dependency-based-word-embeddings-acl-2014.pdf)

@@ -25,6 +25,7 @@ Please feel free to pull requests to add links.
 * Improving Word Representations via Global Context and Multiple Word Prototypes (2012), EH Huang et al. [[pdf]](http://www.aclweb.org/anthology/P12-1092)
 * Enriching Word Vectors with Subword Information (2016), P. Bojanowski et al. [[pdf]](https://arxiv.org/pdf/1607.04606v1.pdf)
 * Bag of Tricks for Efficient Text Classification (2016), A. Joulin et al. [[pdf]](https://arxiv.org/pdf/1607.01759.pdf)
+* Memory-Efficient FastText: A Comprehensive Approach Using Double-Array Trie Structures and Mark-Compact Memory Management (2026), Y. Du [[paper]](https://arxiv.org/abs/2506.01254) [[code]](https://github.com/initial-d/me_fasttext)
 
 **Language Model**
 
@@ -157,4 +158,8 @@ Links for pre-trained word vectors:
 
 * [Original](https://github.com/stanfordnlp/GloVe)
 * [GloVe as an optimized TensorFlow GPU Layer using chakin](https://github.com/guillaume-chevalier/GloVe-as-a-TensorFlow-Embedding-Layer)
+
+### FastText
+
+* [me_fasttext](https://github.com/initial-d/me_fasttext) - Memory-efficient FastText-derived C++ prototype with exact trie-based subword ids and compact mmap serving.
 

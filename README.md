@@ -85,6 +85,10 @@ Please feel free to pull requests to add links.
 * [A Neural Probabilistic Language Model](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
 * [Linguistic Regularities in Continuous Space Word Representations](http://www.aclweb.org/anthology/N13-1090)
 
+### Multimodal Embeddings
+
+* FreeRet: MLLMs as Training-Free Retrievers (ICML 2026), Yuhan Zhu et al. [[paper]](https://proceedings.mlr.press/v306/zhu26ba.html) [[code]](https://github.com/MCG-NJU/FreeRet)
+
 ## Researchers
 
 * [Tomas Mikolov](https://scholar.google.co.jp/citations?user=oBu8kMMAAAAJ&hl=en)
